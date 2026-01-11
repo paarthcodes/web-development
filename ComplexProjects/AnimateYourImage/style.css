@@ -1,0 +1,16 @@
+img {
+    height: 300px;  
+}
+img.filtered-image {
+    animation: sepiaFilter 3s forwards;
+}
+
+@keyframes sepiaFilter {
+    from {
+        filter: sepia(0%);
+    }
+    
+    to {
+        filter: sepia(100%);
+    }
+}

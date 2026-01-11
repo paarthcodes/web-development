@@ -1,0 +1,28 @@
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+}
+
+h1 {
+      color: #333333;
+      text-align: center;
+}
+
+h2 {
+      color: #666666;
+}
+p:hover {
+  animation: rotate-pColor 3s forwards;
+}
+
+/* Keyframes selector for the rotate-pColor animation */
+@keyframes rotate-pColor {
+  from {
+    color: black;
+    background-color: white;
+  }
+  to {
+    color: navy;
+    background-color: beige;
+  }
+}

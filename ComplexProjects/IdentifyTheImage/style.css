@@ -1,0 +1,13 @@
+img {
+    height: 400px;  
+    transition: filter 10s;
+    filter: blur (50px);
+}
+
+
+img.blur:active {
+   filter:blur (0px);
+}
+img.clear:active {
+    filter: blur (50px);
+}

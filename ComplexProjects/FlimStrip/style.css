@@ -1,0 +1,55 @@
+#original {
+    height:200px;
+}
+
+img {
+    transition: width 1s, height 1s;
+}
+
+td {
+    transition: background-color 1s;
+}
+
+img.blur {
+    height:150px;
+    filter:blur(3px);
+}
+
+img.contrast {
+    height:150px;
+    filter:contrast(75%);
+}
+
+img.hue-rotate {
+    height:150px;
+    filter:hue-rotate(90deg);
+}
+
+img.sepia {
+    height:150px;
+    filter:sepia(100%);
+}
+
+img.contrast:hover {
+    width:300px;
+    height:213.235294117647px;
+}
+
+img.hue-rotate:hover {
+    width:300px;
+    height:213.235294117647px;
+}
+
+img.sepia:hover {
+    width:300px;
+    height:213.235294117647px;
+}
+
+img.blur:hover {
+    width:300px;
+    height:213.235294117647px;
+}
+
+td:hover {
+    background-color:yellow;
+}
