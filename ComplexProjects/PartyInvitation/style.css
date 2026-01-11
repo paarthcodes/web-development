@@ -1,0 +1,14 @@
+body{
+    background-image: radial-gradient(OrangeRed,Orange);
+    
+}
+h1{
+    color: blue 
+    
+}
+span{
+    font-weight:bold;
+    font-size: 24px;
+    font-style:bold;
+    font-family:italic;
+}

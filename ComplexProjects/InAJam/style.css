@@ -1,0 +1,10 @@
+body{
+    background-image:radial-gradient(purple, #800055);
+    color:BlanchedAlmond;
+}
+div p{
+    visibility:hidden;
+}
+.appear:hover p{
+    visibility:visible;
+}

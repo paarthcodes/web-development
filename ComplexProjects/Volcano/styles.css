@@ -1,0 +1,25 @@
+a{
+    color:DarkSlateBlue;
+}
+
+.magma{
+    background-image: radial-gradient(OrangeRed,Orange);
+}
+
+
+div{
+    width:100%;
+    padding:10px;
+    margin:0px;
+    font-weight: bolder;
+    color: indigo;
+}
+.lava{
+    background-color:red;
+}
+.volcano{
+    background-color:goldenrod;
+}
+.nav{
+    background-color:DarkKhaki;
+}

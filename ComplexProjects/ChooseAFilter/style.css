@@ -1,0 +1,18 @@
+img.sepia {
+    filter: sepia(150%);
+}
+img.grayscale {
+    filter: grayscale(150%);
+}
+img.saturate {
+    filter: saturate(150%);
+}
+img.hue-rotate {
+    filter: hue-rotate(273deg);
+}
+.big {
+    height:150px;
+}
+img {
+    height:100px;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color:DarkCyan;
+}
+h1{
+    font-weight:bold;
+    color:LightGreen;
+    font-family:Times;
+    text-align:center;
+}
+.links a {
+    background-color:khaki;
+    padding:15px;
+    border-style:double;
+}
+p > a{
+    font-weight:bolder;
+    border-style:dashed;
+}
+h2{
+    color:blue;
+}
+p{
+    color:orange;
+}
+li{
+    color:orange;
+}
+div.links{
+    text-align:center;
+}

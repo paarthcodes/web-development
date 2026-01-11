@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Global Trip</title>
+		<style>
+		    body{
+		        background-color: lightblue;
+		        font-size: 18px;
+		        color: black;
+		    }
+		    h1{
+		        color:black;
+		    }
+		    h2{
+		        color:green;
+		    }
+		    h3{
+		        color:yellow;
+		        font-family: monospace;
+		    }
+		    .language{
+		        color:darkblue;
+		    }
+		    .money{
+		        color:darkgrey;
+		    }
+		    img{
+		        height:75px;
+		    }
+		    #citation{
+		        font-size:12px;
+		        font-style:italic;
+		    }
+		    #RC{
+		        border-style:dotted;
+		    }
+		    #Egypt{
+		        border-style:solid;
+		    }
+		    #India{
+		        border-style:dashed;
+		    }
+		    #Japan{
+		        border-style:double;
+		    }
+		    
+		    
+		</style>
+	</head>
+
+	<body>
+		<h1>A Trip Around the Globe</h1>
+		
+		<h2> Africa </h2>
+		<h3> Republic of the Congo </h3>
+		<img id="RC" src= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAACtCAMAAABhsvGqAAAANlBMVEUAlUPaGjX73koAkkPYADT+30r95kv96Ev43krrkkDrkEDrjkBHokRCoUTqjED84ErslkFPo0TpN8rfAAADtUlEQVR4nO3cCVIDMQwEwJjlTrj+/1nAQIUcm6zXHmlGtn6QLmmQnBSbjU5Nu8cbQD1svT9YQU0fj3cIg9db70+2vKbdG8LgfnubvD/a4po+YAYyCF95AJqFJIMw7e4gfZANRBBwmZhkEKbdDcRg+2MggYDKxN8+kECAZqIIAjYTNRBAmfjfgB4BtCc+/DdgR4BnogACKhO3BwbcCMCbSQYBlYnHBswIRrNAjYC8nVUQ8HsiP4LJfkCOYJaJxAiWs8CKYJiJtAiod6Q5A0YE9DuSAoJtJnIiTC+mmUiJgLqZLhmwITjMAh0Cak+8bMCFYL0fMCLY3c68CC6ZSIZgvicSIjhlIhWC1ZsqM4JbJhIhuPYBCYJjJtIgGL8jUSI4zwIFgm8mciBML9594I+Aup2fCwy8EQhmwR3BPxP9ETj6wBcBlInFBp4IPu+JXAiot/VyAz8Ekkx0RWDJRE8Ez3ckFgSeTPRDIMpENwTU79bXGngggDKx7GZyRkDtiesN7BH4+sAegS0TPRC49gMfBMZZsEaguZ0dEUj7wBQBlYnVBoYIDG/r3gio27m+D+wQKPcDYwTUO1KLPrBCYJ4FKwRUJjYyMEGg3Q8MEagz0QiB6W3dC4E8E00QWG8mSwT6TDRA4L2Z7BBQmfjU1gCKoJCJaASJTAQjaGQiFkEkE6EI7DeTBQJqFlr/XUAiKM0CCkEoE2EIYn0AQZDKRBCCViZiEORmAYAg2AfNEVB9ADVojED4eyRzBJnbGYigczvjELi/b7RBUJ2Flgh6e2J7BMn9oDGC4p7YGkHlbR2JoLkntkUQ3RObIkhnYiME9VlogYDaDwwNqhEC9EE1gvZ+0AZBPxPrEULMQiVChEysRUDdzuYGFQgxMrEOIUgmViFEycQaBOV3pFYIkWZhLUKgTFyNIP6O1AQhVCauREC9I/kZlCMEy8RVCNEycQ1CmJupAiFeJpYjxOyDMoQ4t/N6hJCZWIgAMnCfhRKEoJlYhBA1E3MtNQi4J+5rzEJaiBB6FtIyhOB9sAgh4O18VAsMQmdirjEL6TpC9EzMNfogXUPow+AyQuCb6aBGH6SLCF1kYi77WXinM5hH6GYW0jxCR30wi9BTH8whyP9uvazGLKTzCH3NQjqL0FsfnENA9QGvwSlC/Hek0xp9kE4QusvEXCazQJyJucYspEOEfm7no+p6P/ir3jMx15iFtEfoNRNzjVlIfwj9ZmKuMQvpB6HTPXFfow/SN0LfmZir90zMtRH7n7KQ+gRXBs00UuN6rgAAAABJRU5ErkJggg==">
+		<ul>
+		    <li class="language">Official Language: French</li>
+		    <li class="money">Currency: Central African CFA franc (XAF)</li>
+		    <li>Fun Fact: Established Independence from France in 1960</li>
+		</ul>
+		
+		<h3> Egypt </h3>
+		<img id="Egypt" src="data:image/png;base64,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">
+		<ul>
+		    <li class="language">Official Language: Arabic </li>
+		    <li class="money">Currency: Egytian Pound</li>
+		    <li>Fun Fact: The ancient Egyptians invented the 365-day calendar by adding five extra days to the 12-month, 360-day lunar cycle. </li>
+		</ul>
+		
+        <h2> Asia </h2>
+		<h3> India </h3>
+		<img id="India" src="data:image/png;base64,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" >
+		<ul>
+		    <li class="language">Official Language: Hindi</li>
+		    <li class="money">Currency: Rupee</li>
+		    <li>Fun Fact: India is the origin of many important concepts and games, such as the number zero, chess, and the board game Snakes and Ladders.</li>
+		</ul>
+		<h3> Japan </h3>
+		<img id="Japan" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAACtCAMAAABhsvGqAAAAb1BMVEX///+8AC27ACq3AAC6ACG7ACa6ACO5ABi5ABy7ACj9+fq4ABS4ABC4AAu3AAP14OTcl6D78fPPbnnakZrpv8W+IDfw0dbJU2LBLkPUe4blsrnsxszWhY7eoKbmt7z46OvFRlXhqq/OZnPKW2fDO00P6eL9AAAER0lEQVR4nO3d23aqMBAGYEkChJMUVCoeCrZ9/2fcoNtltVUQMyTR/7vsFTMLJ5NJtJMJAAAAAAAAAAAAAAAAAAAAAMDTC7O02EuzUPezaBAWu/J9GXM+TRpTzuPle7krXicVYbH99mNfuIHzQ+CK5o/120skoigXXLrOFa7ki7LQ/Yy0qrcFF+xaBg6Y4M6s0v2kZNJc+h0Z+J8HKfNU99OSSHMu+mTgQPDP50tDVt6TgkMaykz3U6u1c+V9KWhJd6f7uRWq6qRXLbjEkvppKuRKekNS0PLkSvfTq5HzoSlo8Vz38ytQLQdUg5/k0vqPRMqudod9uczyxXKdBN1Rdgmma91xPGI+bFW4xJK57kiGU5QDq7NQPLQsnOOWfiJSqeg9aDFpZXXMmIKaeBIwG3cS9Z0bpi6i1h3R/TaR2hw4TrTRHdO91gqL4tHUsiUicxUWxSPm2lUWcsUF4UBYtZlaTylyYFm3sFS6Op4ES92R9beNaXLQrBBb3bH1FfpUOXAc35YDqtmDY5SbSZjpjq6fMCBYHo9YYMersFXeK/5kSVVwCF+E5lVwdMfXx5psaTiIbegVPgcfMvTjfeqOsFtI/CI0VcH80rgiT0Js/qHU18PnDF3cL90xdslo14YWc0zfURcJdQ4cJzH9UhNly3wkTW+da/KS0BSFWneUHcjXhlasO8rbUoL56m/c7IOYOenm6Sgye+y8HaEuNpXR7J1kSTJlviRK3XHeRN8vtgzvGWuiMfNFEmrdcd5ENWs/Z/bkPVyQ7xxabGnybnqsJCyQBCQBSbAjCWOtDiYnYaQ+Iah1x3kTOsZGTnzocOCZfWNljOma8fO1FeHVhBPf7JOHguiy0rmp2ePmcJzxmtEr5GQyRrfEFrqj7DDGaMnwwdJk8jHCzD3+0B1lh2qMEyjjvx5Hv3swe660R98uGd4qtejPoAw/f9r7Jv48BN+6I+xhR9w5+zb8nkBGfBwZmX5PZY/mCx9HlnzxIyW9sZNYUBZbX4STFc/sodIJ5Sppw/p48ElWFYQFd3r/q8hWSd/4bcPJjCgLtnzv5WBB0jYGpk9TztHMGo2/ynqhJOgbI9MnSr98Kz+Lcm3YOZ2rIsUjVxZZtDIczRW3TNzsG5xXbJXuIRKzL3BeVSqcPMfWFcWjXNkSEdnTLv+iKguRHUOEK3IldSGxOgeTyUZBFhLrflbn0o4/2C8wbum68FPBHho0eYFlG4a/Ze8PlMfo3cI+8U9vfOBGwuVvup9dnaqOB1QGFj/PLxbvrcTdB7VS2HDWdJdw5t/z+4xM+hvDbyYNkm3cfj/q36TAdzdWnLYNkG0d7nXmgXnc2T5rCvaK3Ilv/ZsLJmInf4rO4KZwXi7iSPyxaLoiip1y/oyl4C/pR1lLnvhSCK8hhPQTLutyZc0hmyJhVax2mzJvlJvdqqhe5Q0AAAAAAAAAAAAAAAAAAAAAgNf1D53+Qj8zo+6sAAAAAElFTkSuQmCC">
+		<ul>
+		    <li class="language">Official Language: Japeneese </li>
+		    <li class="money">Currency: Japanese Yen </li>
+		    <li>Fun Fact: A fun fact about Japan is that it has the world's oldest company, Kongo Gumi, founded in 578 AD.  </li>
+		</ul>
+		<hr>
+		<hr>
+		
+		<h3>Works Cited</h3>
+		<ul id = "citation" ><li><a href = "https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_Africa">Wiki - List  of sovereign states and dependent territories in Africa</a></li>
+		<li><a href = "https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_Asia">Wiki - List of sovereign states and dependent territories in Asia</a></li>
+		</ul>
+		
+	</body>
+</html>

@@ -1,0 +1,13 @@
+img {
+    width: 125px;   
+}
+
+img.gray33 {
+    filter: grayscale(33%);
+}
+img.gray67 {
+    filter: grayscale(67%);
+}
+img.gray100 {
+    filter: grayscale(100%);
+}

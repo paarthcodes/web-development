@@ -1,0 +1,7 @@
+img{
+    height:300px;
+}
+img + p{
+    font-size:12px;
+    font-style:italic;
+}

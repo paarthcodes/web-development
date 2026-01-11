@@ -1,0 +1,17 @@
+body{
+    background-color:ghostwhite;
+}
+
+img{
+    width:100%;
+}
+
+.header{
+    text-align:center
+}
+
+.messages{
+    font-weight:bold;
+    border-style:solid;
+    background-color:mintcream;
+}

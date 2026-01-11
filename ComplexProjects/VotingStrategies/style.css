@@ -1,0 +1,18 @@
+body{
+    font-size:20px;
+}
+#one::selection{
+    background-color:red;
+}
+#two::selection{
+    background-color:green;
+}
+#three::selection{
+    background-color:yellow;
+}
+#four::selection{
+    background-color:blue;
+}
+li:active::before{
+    content: "You are voting for ";
+}

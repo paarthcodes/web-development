@@ -1,0 +1,12 @@
+body{
+    background-color:DarkCyan;
+}
+div.content{
+    border-style:double;
+    background-color:dodgerblue;
+    font-weight:bold;
+    padding:15px;
+}
+p:hover{
+    font-size:30px;
+}

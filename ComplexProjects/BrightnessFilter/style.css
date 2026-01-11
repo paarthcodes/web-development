@@ -1,0 +1,15 @@
+img {
+    height: 300px;   
+}
+
+img.darker {
+    filter: brightness(50%);
+}
+
+img.lighter {
+    filter: brightness(150%);
+
+}
+img.normal {
+    filter: brightness(100%);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paarth's Class Schdule</title>
+    </head>
+
+    <body>
+        <h1>Paarth's Class Schdule:</h1>
+        <hr>
+        
+        
+        <h2>Monday, Tuesday, and Friday</h2>
+        <strong>Period 1:</strong> <em>Computer Science</em>
+        <br>
+        <strong>Period 2:</strong> <em>Science 8</em> 
+        <br>
+        <strong>Period 3:</strong> <em>Strenght and Conditioning</em> 
+        <br>
+        <strong>Period 4:</strong> <em>Spanish 1</em>
+        <br>
+        <em><strong>A Lunch</strong></em>
+        <br>
+        <strong>Period 5 + 6:</strong> <em>GT ILA 7</em> 
+        <br>
+        <em><strong>Advisory</strong></em>
+        <br>
+        <strong>Period 7:</strong> <em>Algebra 1 </em> 
+        <br>
+        <strong>Period 8:</strong> <em>Texas History</em> 
+        <br>
+        <hr>
+        
+        
+        <h2>Wednesday (A days) </h2>
+        <strong>Period 1 + 2:</strong> <em>Computer Science</em> 
+        <br>
+        <strong>Period 3 + 4:</strong> <em>Strenght and Conditioning</em> 
+        <br>
+        <em><strong>A Lunch</strong></em>
+        <br>
+        <strong>Period 5 + 6:</strong> <em>GT ILA 7</em> 
+        <br>
+        <em><strong>Advisory</strong></em>
+        <br>
+        <strong>Period 7 + 8:</strong> <em>Algebra 1 </em> 
+        <br>
+        <hr>
+        
+        
+        <h2>Thursday (B Days) </h2>
+        <strong>Period 1 + 2:</strong> <em>Science 8</em>
+        <br>
+        <strong>Period 3 + 4:</strong> <em>Spanish 1</em>
+        <br>
+        <em><strong>A Lunch</strong></em>
+        <br>
+        <strong>Period 5 + 6:</strong> <em>GT ILA 7</em> 
+        <br>
+        <em><strong>Advisory</strong></em>
+        <br>
+        <strong>Period 8 + 7:</strong> <em>Algebra 1 </em> 
+        <br>
+    </body>
+</html>

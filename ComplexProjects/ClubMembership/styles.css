@@ -1,0 +1,12 @@
+p{
+    color:blue;
+}
+p.member::after {
+  content: " 🎉 Congratulations! You are a member! ";
+}
+a:hover{
+    color:red;
+}
+body{
+    background-color:DarkCyan;
+}
