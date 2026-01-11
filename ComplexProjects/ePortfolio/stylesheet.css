@@ -1,0 +1,116 @@
+
+body {  
+    font-family: Times, sans-serif;  
+    background-color: #f2f2f2;  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+header {  
+    background-color: #00698f;  
+    color: #ffffff;  
+    padding: 1em;  
+    text-align: center;  
+}  
+  
+header nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+header nav ul li {  
+    display: inline-block;  
+    margin-right: 20px;  
+}  
+  
+header nav a {  
+    color: #ffffff;  
+    text-decoration: none;  
+}  
+  
+header nav a:hover {  
+    color: #cccccc;  
+}  
+  
+main {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 2em;  
+}  
+  
+section {  
+    background-color: #ffffff;  
+    padding: 1em;  
+    margin-bottom: 20px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+h1 {  
+    color: blue;  
+    margin-top: 0; 
+    text-align:center;
+}  
+  
+table {  
+    border-collapse: collapse;  
+    width: 100%;
+    border: 5px solid #dddddd;
+}  
+  
+th, td {  
+    border: 1px, solid #dddddd;  
+    padding: 10px;  
+    text-align: left;  
+}  
+  
+th {  
+    background-color: #f2f2f2;  
+}  
+  
+footer {  
+    background-color: #00698f;  
+    color: #ffffff;  
+    padding: 1em;  
+    text-align: center;  
+    clear: both;  
+}  
+  
+footer p {  
+    margin-bottom: 10px;  
+}  
+  
+button {  
+    background-color: #00698f;  
+    color: #ffffff;  
+    border: none;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    cursor: pointer;  
+}  
+  
+button:hover {  
+    background-color: #004d6f;  
+}  
+  
+@media only screen and (max-width: 768px) {  
+    main {  
+        flex-direction: column;  
+    }  
+    section {  
+        margin-bottom: 10px;  
+    }  
+}  
+  
+@media only screen and (max-width: 480px) {  
+    header {  
+        padding: 0.5em;  
+    }  
+    main {  
+        padding: 1em;  
+    }  
+    section {  
+        margin-bottom: 5px;  
+    }  
+}
